@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    height: 60px;
+    background-color:rgb(241, 194, 50);
+    border: 1.5px solid;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items:center;
+}
+
+.text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.btn {
+    appearance: button;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(241, 194, 50);
+    font-size: 18px;
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+}
+.btn:hover {
+    border: 2px solid ;
+}
+
+.header-first-section {
+    border: 1.5px solid rgb(241, 194, 50);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+
+.first-h1 {
+    margin: 4px;
+    font-family: Arial;
+}
+
+.content-main {
+    display: flex;
+    align-items:first baseline;
+    background-image: linear-gradient(rgba(20,20,20,0.4),rgba(20,20,20,0.4)), url(./img/10-adesivos-da-maquininha-cartao-adesivo-da-bandeira-de-cartao.jpg);
+    height: 100vh; 
+}
+
+.text-main h1 {
+    margin-top: 60px;
+    font-size: 60px;
+    color: black;
+}
+
+
