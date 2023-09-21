@@ -1,3 +1,3 @@
 # sitemaquininha
-https://felipesantt.github.io/sitemaquininha/
+www.cuponsmaquininhas.com.br
 
