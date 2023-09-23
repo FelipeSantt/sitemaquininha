@@ -23,7 +23,8 @@ body {
     margin-left: 230px;
     display: flex;
     justify-content: space-between;
-    gap: 52px;
+    align-items: center;
+    gap: 38px;
     font-size: 18px;
 }
 
