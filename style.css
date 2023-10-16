@@ -20,12 +20,11 @@ body {
 }
 
 .menu ul{
-    margin-left: 230px;
+    margin-left: 400px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 38px;
     font-size: 18px;
+    gap: 25px;
 }
 
 .menu ul a {
@@ -140,7 +139,7 @@ body {
 
 .itens-catalogo img{
     width: 100%;
-    height: 350px;
+    height: 500px;
 }
 
 .list-info {
@@ -192,6 +191,25 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:1450px) {
+    .menu ul{
+        margin-left: 350px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        gap: 25px;
+    }
+}
+@media (max-width:1300px) {
+    .menu ul{
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        gap: 25px;
+    }
 }
 
 
@@ -314,6 +332,17 @@ strong {
         font-size: 15px;
     }
 
+    .script-anuncio {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #affiliatedScript {
+        width: 50%;
+    }
+
     .footer {
         text-align: center;
         width: 100%;
@@ -323,5 +352,6 @@ strong {
         width: 80%;
         font-size: 10px;
     }
+
 
 }
